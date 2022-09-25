@@ -23,10 +23,10 @@ public class birthdayProgram {
 		
 		if (choice == 1) {
 			age = thisYear - birthYear;
+			System.out.println("Hello " + name + "," + " you are " + age +  " years old");
 		} else {
 			age = thisYear - birthYear - 1;
+			System.out.println("Hello " + name + "," + " you are still " + age +  " years old");
 		}
-		
-		System.out.println("Hello " + name + "," + " you are " + age +  " years old");
 	}
 }
