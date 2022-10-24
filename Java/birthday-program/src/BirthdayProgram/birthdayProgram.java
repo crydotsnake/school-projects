@@ -28,5 +28,6 @@ public class birthdayProgram {
 			age = thisYear - birthYear - 1;
 			System.out.println("Hello " + name + "," + " you are still " + age +  " years old");
 		}
+		sc.close();
 	}
 }
